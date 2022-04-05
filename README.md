@@ -11,7 +11,7 @@ I'm Athiprat Kanha, from Thailand.
 - [@athipratkanha](https://twitter.com/martonlederer) on Twitter
 - [Athiprat Kanha](https://twitter.com/instagram) on Instagram
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=athipratkanha)](https://github.com/athipratkanha/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=AthipratKanha)](https://github.com/AthipratKanha/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AthipratKanha&layout=compact)](https://github.com/AthipratKanha/github-readme-stats)
 
