@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+
+    <style>
+        html,body {
+            margin: 0px;
+        }
+        .navbar {
+
+            display: flex;
+            justify-content: space-between;
+            padding: 25px 48px;
+            color: white;
+            background-color: black;
+        }
+        .navbar a {
+            color: white;
+        }
+        .navbar_menu {
+            margin-right: 25px;
+        }
+        .banner_image {
+            width: 100%;
+            height: 300px;
+        }
+        .feed {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            
+        }
+        .feed2 {
+            display: flex;
+            justify-content: space-around;
+            margin: 25px;
+        }
+        .feedpage {
+            width: 300px;
+            height: 200px;
+            border: 1px solid black;
+        }
+        .footer {
+            padding: 25px 48px;
+            height: 10%;
+            color: white;
+            background-color: black;
+            justify-content: end;
+        }
+        .footerdetail {
+            margin: 25px;
+        }
+        .text1 {
+            display: flex;
+        }
+        .text2 {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .textdetail {
+            width: 50%;
+        }
+        .pic {
+            display: flex;
+            justify-content: center;
+        }
+       /*new class*/
+       @media only screen and (max-width: 600px) {
+           .navbar {
+               padding: 25px;
+           }
+           .feed{
+               height: auto;
+           }
+           .feed2 {
+               flex-direction: column;
+               align-items: center;
+           }
+           .feedpage {
+               margin-top: 25px;
+           }
+           .text1 {
+               flex-direction: column-reverse;
+           }
+           .text2 {
+               flex-direction: column-reverse;
+           }
+           .textdetail {
+               width: 90%;
+               padding: 15px;
+           }
+
+       }
+
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div>LOGO</div>
+        <div>
+        <a href="" class="navbar_menu">
+            Menu 1
+        </a>
+        
+        <a href="" class="navbar_menu">
+            Menu 2
+        </a>
+       
+        <a href="" class="navbar_menu">
+            Menu 3
+        </a>
+        </div>    
+    </div>
+    
+    <div>
+        <img src="https://cdn.pixabay.com/photo/2016/08/03/09/03/universe-1566159_1280.jpg" 
+        alt="Banner Image" 
+        class= "banner_image">
+    </div>
+
+    <div class="feed"> 
+        <div class="feed2">
+            <div class="feedpage">feed1</div>
+            <div class="feedpage">feed2</div>
+            <div class="feedpage">feed3</div> 
+        </div> 
+        <div class="feed2">
+            <div class="feedpage">feed4</div>
+            <div class="feedpage">feed5</div>
+            <div class="feedpage">feed6</div> 
+        </div>
+    </div>
+
+    <div class="text1">
+        <div class="textdetail">
+            Earth is the third planet from the Sun and the only astronomical object known to harbor life. While large amounts of water can be found throughout the Solar System, only Earth sustains liquid surface water. About 71% of Earth's surface is made up of the ocean, dwarfing Earth's polar ice, lakes and rivers. The remaining 29% of Earth's surface is land, consisting of continents and islands. Earth's surface layer is formed of several slowly moving tectonic plates, interacting to produce mountain ranges, volcanoes and earthquakes. Earth's liquid outer core generates the magnetic field that shapes Earth's magnetosphere, deflecting destructive solar winds.
+        </div> 
+        <div class="pic">
+            <img src="https://cdn.pixabay.com/photo/2011/12/13/14/31/earth-11015_1280.jpg" 
+            alt="pictext1"
+            width="300"
+            height="300">
+        </div>
+    </div>
+    <div class="text2">
+        <div class="textdetail">
+            The Moon is Earth's only natural satellite. At about one-quarter the diameter of Earth (comparable to the width of Australia),[16] it is the largest natural satellite in the Solar System relative to the size of a major planet,[f] the fifth largest satellite in the Solar System overall, and larger than any known dwarf planet. The Moon is a planetary-mass object that formed a differentiated rocky body, making it a satellite planet under the geophysical definitions of the term.[17] It lacks any significant atmosphere, hydrosphere, or magnetic field. Its surface gravity is about one-sixth of Earth's (0.1654 g); Jupiter's moon Io is the only satellite in the Solar System known to have a higher surface gravity and density.
+        </div> 
+        <div class="pic">
+            <img src="https://cdn.pixabay.com/photo/2016/11/29/13/14/full-moon-1869760_1280.jpg" 
+            alt="pictext2"
+            width="350"
+            height="300">
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <footer class="footerdetail">footer1</footer>
+        <footer class="footerdetail">footer2</footer>
+        <footer class="footerdetail">footer3</footer>
+    </div>
+    
+</body>
+</html>
