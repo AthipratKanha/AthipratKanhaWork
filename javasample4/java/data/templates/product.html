@@ -1,0 +1,16 @@
+<h3>Welcome to ${brand}</h3>
+<#list product as p>
+${p} <br>
+</#list>
+
+<select>
+    <option>Red</option>
+    <option>Green</option>
+    <option>${products[0]}</option>
+</select>
+
+<select>
+    <#list products as p>
+    <option>${p}</option>
+    </#list>
+</select>
