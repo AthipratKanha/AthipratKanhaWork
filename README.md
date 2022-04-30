@@ -3,7 +3,7 @@ I'm Athiprat Kanha, from Thailand.
 
 ## Skills
 - 👨‍💻 Java, JavaScript, HTML
-- ⚙️ React.js , Vue.js , Node.js
+- ⚙️  Vue.js , Node.js
 - 👁️ Bootstrap, CSS
 - 💽 MySQL , MongoDB
 
